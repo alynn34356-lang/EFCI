@@ -1,62 +1,55 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 60px;
+  padding: 0;
   background: white;
   color: black;
 }
 
-.container {
-  max-width: 700px;
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: black;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 20px;
-  background: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-}
-
-.btn:hover {
-  background: #333;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-  background: #f4f6f8;
+/* Header section */
+.header {
+  text-align: center;
+  padding: 30px 20px;
   border-bottom: 1px solid #ddd;
 }
 
-.logo {
+/* Logo image */
+.logo-image {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+/* Title */
+h1 {
+  margin: 10px 0 20px 0;
+  font-size: 28px;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
   font-weight: bold;
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
 }
 
-.nav-links a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-}
-
-.nav-links a:hover {
+.nav a:hover {
   text-decoration: underline;
 }
 
-h1 {
-  margin-top: 40px;
+/* Main content */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 1.6;
 }

@@ -14,9 +14,8 @@ body {
 
 .logo {
   width: 100%;
-  height: 300px;      /* banner height */
-  object-fit: cover;  /* prevents stretching */
-  display: block;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* navigation */

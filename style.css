@@ -14,7 +14,7 @@ body {
 
 .logo {
   width: 100%;
-  max-height: 180px;   /* keeps it from getting too tall */
+  height: 180px;      /* fixed banner height */
   object-fit: cover;
   display: block;
 }

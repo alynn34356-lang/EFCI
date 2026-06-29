@@ -6,15 +6,17 @@ body {
   color: black;
 }
 
-/* logo */
+/* HEADER IMAGE (FULL BANNER) */
 .header {
-  text-align: center;
-  padding: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
-  width: 120px;
-  height: auto;
+  width: 100%;
+  height: 300px;      /* banner height */
+  object-fit: cover;  /* prevents stretching */
+  display: block;
 }
 
 /* navigation */
@@ -43,6 +45,7 @@ body {
   padding: 20px;
 }
 
+/* heading */
 h1 {
   margin-bottom: 20px;
 }

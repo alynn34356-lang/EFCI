@@ -50,9 +50,11 @@ gap:18px;
 
 .logo-image{
 
-width:110px;
+width:160px;
 
 height:auto;
+
+flex-shrink:0;
 
 }
 .logo h1{

@@ -235,21 +235,37 @@ margin-top:50px;
 
 .member{
 
-.member img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    object-position: center top;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 20px;
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
 }
+
+
+.member img {
+
+width:250px;
+
+height:250px;
+
+object-fit:cover;
+
+object-position:center top;
 
 border-radius:50%;
 
-margin-bottom:20px;
+display:block;
+
+margin:0 auto 20px;
 
 border:5px solid #0066cc;
+
 
 }
 

@@ -48,14 +48,13 @@ gap:18px;
 
 }
 
-.logo i{
+.logo-image{
 
-font-size:60px;
+width:110px;
 
-color:#0066cc;
+height:auto;
 
 }
-
 .logo h1{
 
 font-size:30px;

@@ -235,16 +235,11 @@ margin-top:50px;
 
 .member{
 
-background:white;
-
-padding:25px;
-
-border-radius:15px;
-
-box-shadow:0 5px 18px rgba(0,0,0,.08);
-
-text-align:center;
-
+.member {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .member img{

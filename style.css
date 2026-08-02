@@ -110,18 +110,23 @@ align-items:center;
 justify-content:center;
 
 background:
-linear-gradient(rgba(255,255,255,.92),
-rgba(255,255,255,.92)),
+linear-gradient(
+rgba(255,255,255,.97),
+rgba(255,255,255,.97)
+),
 url("images/microscope.jpg.png");
 
 background-size:cover;
 
-background-position:center;
+background-position:right center;
+
+background-repeat:no-repeat;
 
 text-align:center;
 
 padding:50px;
 
+}
 }
 
 .hero h2{

@@ -351,3 +351,22 @@ padding:80px 20px;
     margin-top: 15px;
     font-size: 14px;
 }
+.staff-photo {
+
+width:200px;
+
+height:200px;
+
+object-fit:cover;
+
+object-position:center top;
+
+border-radius:50%;
+
+display:block;
+
+margin:0 auto 20px;
+
+border:5px solid #0066cc;
+
+}

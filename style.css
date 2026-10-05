@@ -224,16 +224,11 @@ margin-bottom:20px;
 
 }
 
-.team-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-gap:40px;
-
-margin-top:50px;
-
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 50px;
 }
 
 .member{
@@ -249,7 +244,10 @@ text-align:center;
 box-shadow:0 5px 20px rgba(0,0,0,.08);
 
 }
-
+.member:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+}
 
 .member img {
 
@@ -368,5 +366,16 @@ display:block;
 margin:0 auto 20px;
 
 border:5px solid #0066cc;
+
+}
+@media(max-width:700px){
+
+    .team-grid{
+        grid-template-columns:1fr;
+    }
+
+    .member:last-child{
+        grid-column:auto;
+    }
 
 }

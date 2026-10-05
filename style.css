@@ -226,11 +226,11 @@ margin-bottom:20px;
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
     margin-top: 50px;
+    align-items: start;
 }
-
 .member{
 
 background:white;
@@ -244,10 +244,36 @@ text-align:center;
 box-shadow:0 5px 20px rgba(0,0,0,.08);
 
 }
-.member:last-child {
-    grid-column: 1 / -1;
-    justify-self: center;
+/* Brandon and Ryan - Leadership */
+.leadership {
+    grid-column: span 3;
 }
+
+.leadership img {
+    width: 250px;
+    height: 250px;
+}
+
+/* Staff members */
+.technician {
+    grid-column: span 2;
+}
+
+.technician img,
+.staff-photo {
+    width: 200px;
+    height: 200px;
+}
+
+/* Center Michelle and Britni on the last row */
+.technician:nth-child(6) {
+    grid-column: 2 / span 2;
+}
+
+.technician:nth-child(7) {
+    grid-column: 4 / span 2;
+}
+
 
 .member img {
 
@@ -370,12 +396,24 @@ border:5px solid #0066cc;
 }
 @media(max-width:700px){
 
-    .team-grid{
-        grid-template-columns:1fr;
+    .team-grid {
+        grid-template-columns: 1fr;
     }
 
-    .member:last-child{
-        grid-column:auto;
+    .leadership,
+    .technician {
+        grid-column: auto;
+    }
+
+    .leadership img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .technician img,
+    .staff-photo {
+        width: 200px;
+        height: 200px;
     }
 
 }
